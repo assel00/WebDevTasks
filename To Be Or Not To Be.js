@@ -1,4 +1,4 @@
-var expect = function(val) {
+var expect = function (val) {
     return {
         toBe: (val2) => {
             if (val !== val2) throw new Error("Not Equal");
